@@ -1,0 +1,80 @@
+*{ 
+    margin :0;
+    box-sizing: border-box;
+                                  
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        
+      
+    }
+    nav.navbar-toggler{
+        padding: 1%;
+        display: inline-block;
+        border: solid 2px black;
+        list-style-type: none;
+        background-color: rgb(25, 25, 29)
+    }
+    .container-fluid{
+        background-color: rgba(85, 85, 222, 0.644);
+        padding: 1%;
+    }
+    .headings{
+        text-align: center;
+        background-color: rgba(81, 77, 215, 0.764);
+        color: rgb(23, 23, 26);
+        padding: 1%;
+        border: 1px solid black;
+    }
+    h2{
+        text-align: center;
+        background-color: rgb(104, 137, 227);
+        font-size: 40px;
+        color: rgb(17, 17, 15);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 200;
+    border: solid 1px black;
+    }
+    #main p{ 
+        font-size:large;
+        text-align: center;
+        font-weight: bold;
+        
+
+    }
+    
+    #main{
+        padding: 10%;
+        text-align: center;
+    
+    }
+    #main ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        
+    }
+    
+    
+    #main.remainder{
+        text-decoration: underline;
+        font-style: oblique;
+    }
+    .card{
+        margin-left: 40% !important;
+        background-color: aqua!important;
+    }
+    .card-body{
+        align-items: center;
+        margin-left: 10%;
+    
+    }
+    
+    footer{
+        padding: 5%;
+        text-align: center;
+        background-color: beige;
+        opacity: 50%;
+    }
